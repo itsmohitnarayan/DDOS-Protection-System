@@ -1,14 +1,17 @@
-import Home from "./component/Home";
-import './App.css';
+import React from "react";
 import Navbar from "./component/Navbar";
-// import '@fortawesome/fontawesome-free/css/all.min.css';
-
-
+import Main from "./component/Main";
+import DDosDetection from "./component/DDosDetection";
+import DdosMitigation from "./component/DDosMitigation";
+import DDosMonitoring from "./component/DDosMonitoring";
 function App() {
   return (
-    <div className="App">
-       <Navbar/>
-       <Home/>
+    <div className="app">
+      <Navbar />
+      <Main />
+      <DDosDetection />
+      <DdosMitigation />
+      <DDosMonitoring />
     </div>
   );
 }

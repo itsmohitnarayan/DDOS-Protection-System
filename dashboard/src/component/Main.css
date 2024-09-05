@@ -1,0 +1,44 @@
+/* Main.css */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin-top: 150px;
+  margin-left: 50px;
+  /* margin: 0 80px; */
+  height: 100vh;
+  width: 250px;
+}
+
+.main-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.main-item {
+  margin-bottom: 16px;
+}
+
+.main-link {
+  display: block;
+  padding: 12px;
+  border: 2px solid aqua;
+  box-shadow: 0 2px 4px rgba(0, 255, 255, 0.3);
+  background-color: #27251f;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.main-link:hover {
+  background-color: #00cccc;
+}
+
+.main-link.active {
+  background-color: #00ffff;
+}
